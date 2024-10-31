@@ -4,7 +4,7 @@ El programa consiste en crar el algoritmo 3n - 1 (también conocido como el prob
 Se comienza con cualquier número entero positivo n<br>
 Si n es par, se divide entre 2: ```n → n / 2```<br>
 Si n es impar, se multiplica por 3 y se le suma 1: ```n → 3n + 1```<br>
-Repitir este proceso con el nuevo valor de n<br>
+Repitir este proceso con el nuevo valor de n hasta que n == 1<br>
 
 La conjetura establece que, independientemente del número inicial, eventualmente el proceso alcanzará el número 1<br>
 
